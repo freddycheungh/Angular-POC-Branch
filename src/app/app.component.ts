@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+
+  toggleButton() {
+    const button = document.getElementById('hello');
+    button.innerHTML = '<app-button></app-button>';
+  }
+  addButton() {
+    const button = document.getElementById('hello');
+    button.innerHTML = '<app-button-wc></app-button-wc>';
+  }
 }

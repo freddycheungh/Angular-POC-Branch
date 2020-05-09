@@ -12,7 +12,7 @@ export class AppLandingComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {
-    window.location.replace('/about');
+    // window.location.replace('/about');
   }
 
   navigate(): void {
